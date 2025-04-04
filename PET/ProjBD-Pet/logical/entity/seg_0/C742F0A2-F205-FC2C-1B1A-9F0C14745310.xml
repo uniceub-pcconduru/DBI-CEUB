@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C742F0A2-F205-FC2C-1B1A-9F0C14745310" name="ProdutoServico">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:38:13 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>pes</preferredAbbreviation>
+<shortName>ProdutoServico</shortName>
+<synonym>ProdutoServico</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="1E776A3D-353D-B786-F5A5-DDDD9879FF4B">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:39:54 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="644E6AC7-917D-471A-1EB2-8A56685A5027">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:40:00 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="2B7DD2F2-485F-9394-A48F-C7ECC221CD92">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:40:18 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validade" id="1AAFD99B-8B27-6783-E79C-3B9D0C3E98F3">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:40:27 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoProduto" id="A26C21BF-DBA4-61B7-532A-F0F5F79E9C32">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:40:49 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

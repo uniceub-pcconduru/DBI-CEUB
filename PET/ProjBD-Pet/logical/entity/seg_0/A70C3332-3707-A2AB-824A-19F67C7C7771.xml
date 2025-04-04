@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A70C3332-3707-A2AB-824A-19F67C7C7771" name="PetShop">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:07:08 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>psp</preferredAbbreviation>
+<shortName>PetShop</shortName>
+<synonym>PetShop</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="45ED0A4D-7BA9-EE65-56F2-B6C8FEEFE0B0">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:13:52 UTC</createdTime>
+<comment><![CDATA[Nome da empresa no sistema tributario.]]></comment>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="D3BC934D-E3B7-EBA0-3166-4CCDDD1EE27D">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:19:14 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="2272FAFC-876D-8A34-D3DC-8557380AC48F">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:19:36 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="2649EC38-19BE-EC55-E3F8-9A56A2A7D195">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:20:10 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="F0626487-4F08-DCF7-EF85-2E2BFAB43792">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:20:21 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricaoEstadual" id="5372F811-0C5B-BF9C-C1BC-93950BD102D1">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:22:42 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="ED00457D-371E-4AEF-83F0-50F99777DD5E">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:22:55 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="D94EEF2D-4A4F-4297-C999-FB76DA07EC7E">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:24:23 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

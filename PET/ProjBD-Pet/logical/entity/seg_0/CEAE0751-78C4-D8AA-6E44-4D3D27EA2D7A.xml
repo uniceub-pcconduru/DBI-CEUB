@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEAE0751-78C4-D8AA-6E44-4D3D27EA2D7A" name="Cliente">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:25:14 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>clt</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="403AC184-A3F4-70B0-F7D1-E48C32BE3DAF">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:28:25 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="86AEC48A-2D8E-1F55-286E-993999B9C693">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:28:47 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="1326011E-8AC6-63CC-8BCD-3F3E028815AF">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:33:36 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="2E8C7C05-393E-055D-56AC-5C1BC5CD6470">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:35:11 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="32EAFEFC-4397-B6A2-BFB0-FFC90035076B">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:35:35 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="2F3BCD06-3CED-0AF9-0BCA-BF52CB945D73">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:36:03 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="BC881998-F514-0ED4-1AD6-BE4DD91D8DEA">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:36:13 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tutor" id="1A051A83-1C2E-4E61-3F9E-F044045CA455">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-03-27 23:36:19 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="C7E5C600-91D9-506C-954C-9C5168109478" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
