@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B4A1928-7D0E-7BBA-2E02-7BE42A993472" name="Clientes">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-08 23:50:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Clientes</shortName>
+<synonym>Clientes</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EC58AB3A-E88F-8D0C-186B-D2AE31BE33D2">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-09 00:36:50 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="8A3B28B2-86D9-918F-85B9-13E684565795">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-08 23:51:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="DEF7686C-AFEC-E88D-7DB9-B10CF79CE6A0">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-08 23:52:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="94E5EAA3-F68F-FA94-E720-50E9AB4095B5">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-09 00:31:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="B7D6940A-23C6-C395-45AD-CDA0E40195FB">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-09 00:31:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="059E7A87-3D1C-BAE3-73D1-42A4905E39E9" name="Clientes PK">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-08 23:52:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9957BF74-D85C-22A7-DC9A-11F75D7A25C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A3B28B2-86D9-918F-85B9-13E684565795</attributeRef>
+<attributeRef>EC58AB3A-E88F-8D0C-186B-D2AE31BE33D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
