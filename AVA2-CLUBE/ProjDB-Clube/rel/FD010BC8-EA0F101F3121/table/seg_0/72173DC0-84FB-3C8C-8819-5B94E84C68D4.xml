@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72173DC0-84FB-3C8C-8819-5B94E84C68D4" name="Titular">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>83D44898-1027-FA93-A9C5-6C4537811B6E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>Titular</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf_titular" id="85044450-3AC5-2721-C1DD-EEF543C19022">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>D79B5BF3-9988-852A-F410-A7CF1B0900C2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_titular" id="0202066C-08BD-A3C9-83BE-9D8D1B36E982">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>E41AC34B-B2D0-D4B4-92E7-6A5E1D297CE2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefones_titular" id="34930AA8-4951-FEC9-7905-3E4DC54764D2">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>C5EB05C1-3CC6-9DD1-B3DA-CF6B2FAC4CFF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_titular" id="3AC6E6F1-8AF0-3FB6-C8F2-DE2981D20CF0">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>77A17383-C35C-5E14-61B2-53A76D8A6AF9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento_titular" id="55C45CFB-34EC-C7BE-E009-60E37CA534B7">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>D23A5DC8-77A0-2F36-CD35-B7B7C3386F5F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="840AC1C3-60E7-3957-83C3-26279B595A7D" name="Titular_PK">
+<createdBy>pcconduru</createdBy>
+<createdTime>2025-05-15 23:52:34 UTC</createdTime>
+<generatorID>EA05B41B-912E-153C-BBFC-01BCE28B6916</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85044450-3AC5-2721-C1DD-EEF543C19022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
